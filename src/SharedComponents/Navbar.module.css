@@ -1,0 +1,39 @@
+*body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media (max-width: 1000px) {
+  .dashboardheader {
+    display: none;
+  }
+}
+@media (max-width: 800px) {
+  .input-row {
+    display: none;
+  }
+}
+/* .custommodal .modaldialog {
+  max-width: 80vw;
+  max-height: 80vh;
+  margin: auto;
+}
+
+@media (max-width: 570px) {
+  .custommodal .modaldialog {
+    max-width: 95vw;
+    max-height: 90vh;
+    margin: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+@media (min-width: 1200px) {
+  .custommodal .modaldialog {
+    max-width: 60vw;
+    max-height: 70vh;
+  }
+} */

@@ -1,13 +1,30 @@
-body {
+* {
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  box-sizing: box-border;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.ant-table-thead th {
+  background-color: #6bb5b0 !important;
+  color: white !important;
+}
+
+.ant-layout-sider {
+  background-color: rgb(107, 181, 176) !important;
+}
+
+.ant-layout-sider-trigger {
+  background-color: rgb(107, 181, 176) !important;
+}
+.ant-menu {
+  background-color: rgb(107, 181, 176) !important;
+}
+
+.ant-menu-dark.ant-menu-inline .ant-menu-item-selected {
+  background-color: white !important;
+  color: black !important;
+}
+
+.ant-menu-item-selected a {
+  color: black !important;
 }
